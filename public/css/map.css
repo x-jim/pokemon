@@ -1,0 +1,21 @@
+.mapa {
+    width:640px;
+    height:480px;
+    position: relative;
+}
+.mapa a {
+    position: absolute;
+    cursor: pointer;
+}
+.mapa a.gomap.arriba:hover {
+    background: url('../img/icons/glyphicons_213_up_arrow.png') no-repeat center top;
+}
+.mapa a.gomap.derecha:hover {
+    background: url('../img/icons/glyphicons_211_right_arrow.png') no-repeat right center;
+}
+.mapa a.gomap.abajo:hover {
+    background: url('../img/icons/glyphicons_212_down_arrow.png') no-repeat center bottom;
+}
+.mapa a.gomap.izquierda:hover {
+    background: url('../img/icons/glyphicons_210_left_arrow.png') no-repeat left center;
+}

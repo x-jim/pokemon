@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<ew-language date="2012/12/14" version="7.0.0" id="es" name="Spanish" desc="Español" author="ESP">
+	<global>
+		<phrase id="actiondeleted" value="Eliminado" client=""/>
+		<phrase id="actioninserted" value="Insertado" client=""/>
+		<phrase id="actioninsertedgridadd" value="Insertado (Listado)" client=""/>
+		<phrase id="actionupdated" value="Actualizado" client=""/>
+		<phrase id="actionupdatedgridedit" value="Actualizado (Grid-Edit)" client=""/>
+		<phrase id="actionupdatedmultiupdate" value="Actualizado (Multi-Update)" client=""/>
+		<phrase id="activateaccount" value="Su cuenta ha sido activada" client=""/>
+		<phrase id="activatefailed" value="Activación fallida" client=""/>
+		<phrase id="add" value="Agregar" client=""/>
+		<phrase id="addbtn" value="Nuevo" client=""/>
+		<phrase id="addlink" value="Nuevo" client=""/>
+		<phrase id="addsuccess" value="Nuevo registro creado" client=""/>
+		<phrase id="advancedsearch" value="Búsqueda avanzada" client=""/>
+		<phrase id="allrecords" value="Todo" client=""/>
+		<phrase id="allword" value="Todas las palabras" client=""/>
+		<phrase id="alwaysask" value="Siempre pedirme el usuario y contraseña" client=""/>
+		<phrase id="anyword" value="Cualquier palabra" client=""/>
+		<phrase id="audittrailautologin" value="Auto-Ingreso" client=""/>
+		<phrase id="audittrailfailedattempt" value="Intento Fallido: %n" client=""/>
+		<phrase id="audittrailuserloggedin" value="Usuario ya ha iniciado sesión" client=""/>
+		<phrase id="audittrailpasswordexpired" value="Contraseña caducada" client=""/>
+		<phrase id="audittraillogin" value="Ingreso" client=""/>
+		<phrase id="audittraillogout" value="Salida" client=""/>
+		<phrase id="autologin" value="Autoconectarme hasta que haga clic en salir" client=""/>
+		<phrase id="average" value="Promedio" client=""/>
+		<phrase id="backtolist" value="Volver a la lista" client=""/>
+		<phrase id="backtologin" value="Volver a la página de login" client=""/>
+		<phrase id="backtomasterpage" value="Volver a la página principal" client=""/>
+		<phrase id="batchdeletebegin" value="*** Eliminar iniciado ***" client=""/>
+		<phrase id="batchdeleterollback" value="*** Eliminar revertido ***" client=""/>
+		<phrase id="batchdeletesuccess" value="*** Eliminar completado ***" client=""/>
+		<phrase id="batchinsertbegin" value="*** Insertar iniciado ***" client=""/>
+		<phrase id="batchinsertrollback" value="*** Insertar revertido ***" client=""/>
+		<phrase id="batchinsertsuccess" value="*** Insertar completado ***" client=""/>
+		<phrase id="batchupdatebegin" value="*** Actualizar iniciado ***" client=""/>
+		<phrase id="batchupdaterollback" value="*** Actualizar revertido ***" client=""/>
+		<phrase id="batchupdatesuccess" value="*** Actualizar completado ***" client=""/>
+		<phrase id="cancelbtn" value="Cancelar" client=""/>
+		<phrase id="cancellink" value="Cancelar" client=""/>
+		<phrase id="changepwd" value="Cambiar contraseña" client=""/>
+		<phrase id="changepwdpage" value="Página para cambiar contraseña" client=""/>
+		<phrase id="changepwdbtn" value="Cambiar contraseña" client=""/>
+		<phrase id="confirm" value="Confirmar" client=""/>
+		<phrase id="confirmbtn" value="Confirmar" client=""/>
+		<phrase id="confirmpassword" value="Confirmar contraseña" client=""/>
+		<phrase id="conflictcancellink" value="Cancelar" client=""/>
+		<phrase id="copylink" value="Copiar" client=""/>
+		<phrase id="count" value="Contar" client=""/>
+		<phrase id="customview" value="Vista personalizada" client=""/>
+		<phrase id="delete" value="Eliminar" client=""/>
+		<phrase id="deletebtn" value="Confirmar Eliminar" client=""/>
+		<phrase id="deletecancelled" value="Eliminar cancelado" client=""/>
+		<phrase id="deleteconfirmmsg" value="¿Desea eliminar el registro?" client="1"/>
+		<phrase id="deletelink" value="Eliminar" client=""/>
+		<phrase id="deletemulticonfirmmsg" value="¿Eliminar los registros seleccionados?" client="1"/>
+		<phrase id="deleteselectedlink" value="Eliminar los registros seleccionados" client=""/>
+		<phrase id="deletesuccess" value="Eliminar completado" client=""/>
+		<phrase id="detaillink" value="..." client=""/>
+		<phrase id="detailcount" value="(%c)" client=""/>
+		<phrase id="dupindex" value="Valor duplicado '%v' para el campo '%f', por favor escriba un nombre diferente" client=""/>
+		<phrase id="dupkey" value="Clave duplicada: '%f'" client=""/>
+		<phrase id="edit" value="Editar" client=""/>
+		<phrase id="editbtn" value="Editar" client=""/>
+		<phrase id="editlink" value="Editar" client=""/>
+		<phrase id="enternewpassword" value="Ingrese nueva contraseña" client="1"/>
+		<phrase id="enteroldpassword" value="Ingrese contraseña anterior" client="1"/>
+		<phrase id="enterpassword" value="Ingrese su contraseña" client="1"/>
+		<phrase id="enterpwd" value="Ingrese su contraseña" client="1"/>
+		<phrase id="enterrequiredfield" value="Ingrese el campo requerido" client="1"/>
+		<phrase id="entersearchcriteria" value="Ingrese el criterio de búsqueda" client=""/>
+		<phrase id="enterusername" value="Ingrese el nombre de usuario" client="1"/>
+		<phrase id="entervalidatecode" value="Ingrese el Código de Validación que se muestra arriba" client="1"/>
+		<phrase id="entersenderemail" value="Ingrese el email del Remitente" client="1"/>
+		<phrase id="enterpropersenderemail" value="Excede el máximo de remitentes permitidos, o la direccion ingresada es incorrecta." client="1"/>
+		<phrase id="enterrecipientemail" value="Ingrese el emial del Destinatario" client="1"/>
+		<phrase id="enterproperrecipientemail" value="Excede el máximo de destintarios permitidos, o la direccion ingresada es incorrecta." client="1"/>
+		<phrase id="enterproperccemail" value="Excede el máximo de destinatarios CC permitidos, o la direccion ingresada es incorrecta." client="1"/>
+		<phrase id="enterproperbccemail" value="Excede el máximo de destinatarios BCC permitidos, o la direccion ingresada es incorrecta." client="1"/>
+		<phrase id="entersubject" value="Ingrese un título para el correo" client="1"/>
+		<phrase id="emailformsender" value="Remitente" client=""/>
+		<phrase id="emailformrecipient" value="Para" client=""/>
+		<phrase id="emailformcc" value="Cc" client=""/>
+		<phrase id="emailformbcc" value="Bcc" client=""/>
+		<phrase id="emailformsubject" value="Título" client=""/>
+		<phrase id="emailformmessage" value="Mensaje" client=""/>
+		<phrase id="emailformcontenttype" value="Enviar como" client=""/>
+		<phrase id="emailformcontenttypeurl" value="URL" client=""/>
+		<phrase id="emailformcontenttypehtml" value="HTML" client=""/>
+		<phrase id="enteruid" value="Ingrese su usuario" client="1"/>
+		<phrase id="entervalidemail" value="Ingrese un email válido!" client="1"/>
+		<phrase id="exactphrase" value="Frase exacta" client=""/>
+		<phrase id="exceedmaxretry" value="Ha excedido el máximo de intentos. La cuenta ha sido bloqueada. Por favor intente más tarde (%t minutos)" client=""/>
+		<phrase id="exceedmaxemailexport" value="Ha excedido el máximo de intentos para exportar a email. Por favor intente más tarde." client=""/>
+		<phrase id="exporttocsv" value="Exportar a CSV" client=""/>
+		<phrase id="exporttoemail" value="Email" client="1"/>
+		<phrase id="exporttoexcel" value="Exportar a Excel" client=""/>
+		<phrase id="exporttohtml" value="Exportar a HTML" client=""/>
+		<phrase id="exporttoword" value="Exportar a Word" client=""/>
+		<phrase id="exporttoxml" value="Exportar a XML" client=""/>
+		<phrase id="failedtosendmail" value="No se pudo enviar el email" client=""/>
+		<phrase id="fieldname" value="Nombre del campo" client=""/>
+		<phrase id="fieldrequiredindicator" value="&lt;span class=&quot;ewRequerido&quot;&gt;&amp;nbsp;*&lt;/span&gt;" client=""/>
+		<phrase id="overwritebtn" value="Sobreescribir" client=""/>
+		<phrase id="overwritelink" value="Sobreescribir" client=""/>
+		<phrase id="forgotpwd" value="Recuperar contraseña" client=""/>
+		<phrase id="goback" value="Volver" client=""/>
+		<phrase id="gridaddlink" value="Agregar en listado" client=""/>
+		<phrase id="gridcancellink" value="Cancelar" client=""/>
+		<phrase id="grideditlink" value="Editar en listado" client=""/>
+		<phrase id="gridinsertlink" value="Insertar" client=""/>
+		<phrase id="gridsavelink" value="Guardar" client=""/>
+		<phrase id="hidehighlight" value="Ocultar resaltado" client="1"/>
+		<phrase id="incorrectcreditcard" value="Número de tarjeta inválido" client=""/>
+		<phrase id="incorrectdateymd" value="Formato de Fecha Incorrecta" client="format = yyyy%smm%sdd"/>
+		<phrase id="incorrectdatemdy" value="Formato de Fecha Incorrecta" client="format = mm%sdd%syyyy"/>
+		<phrase id="incorrectdatedmy" value="Formato de Fecha Incorrecta" client="format = dd%smm%syyyy"/>
+		<phrase id="incorrectemail" value="Email no válido" client="1"/>
+		<phrase id="incorrectfield" value="Campo incorrecto" client="1"/>
+		<phrase id="incorrectfloat" value="Formato de número incorrecto" client="1"/>
+		<phrase id="incorrectguid" value="GUID Incorrecto" client="1"/>
+		<phrase id="incorrectinteger" value="Formato de número incorrecto" client="1"/>
+		<phrase id="incorrectphone" value="Formato de teléfono incorrecto" client="1"/>
+		<phrase id="incorrectregexp" value="La expresión regular no coincide" client="1"/>
+		<phrase id="incorrectrange" value="El número debe estar entre %1 y %2" client="1"/>
+		<phrase id="incorrectssn" value="Número de seguro social incorrecto" client="1"/>
+		<phrase id="incorrecttime" value="Formato de hora Incorrecto (hh:mm:ss)" client="1"/>
+		<phrase id="incorrectzip" value="Código Postal Incorrecto" client="1"/>
+		<phrase id="inlineaddlink" value="Agregar en línea" client=""/>
+		<phrase id="inlinecopylink" value="Copiar en línea" client=""/>
+		<phrase id="inlineeditlink" value="Editar en línea" client=""/>
+		<phrase id="insertcancelled" value="Insertar cancelado" client=""/>
+		<phrase id="insertfailed" value="Insertar incorrecto" client=""/>
+		<phrase id="insertlink" value="Insertar" client=""/>
+		<phrase id="insertsuccess" value="Insertar completado" client=""/>
+		<phrase id="invalidemail" value="Email incorrecto" client=""/>
+		<phrase id="invalidfield" value="Campo incorrecto" client=""/>
+		<phrase id="invalidkeyvalue" value="Valor de clave incorrecto" client=""/>
+		<phrase id="invalidrecord" value="Registro inválido! la clave es nula" client="1"/>
+		<phrase id="invalidparameter" value="Parámetro inválido" client=""/>
+		<phrase id="invalidpassword" value="Contraseña inválida" client=""/>
+		<phrase id="invaliduidpwd" value="Usuario o contraseña incorrectos" client=""/>
+		<phrase id="keep" value="Mantener" client=""/>
+		<phrase id="language" value="Lenguaje" client=""/>
+		<phrase id="loading" value="Cargando..." client="1"/>
+		<phrase id="login" value="Ingresar" client=""/>
+		<phrase id="logincancelled" value="Ingreso cancelado" client=""/>
+		<phrase id="loginpage" value="Página de ingreso" client=""/>
+		<phrase id="logout" value="Salir" client=""/>
+		<phrase id="masterrecord" value="Registro maestro" client=""/>
+		<phrase id="maxfilesize" value="Tamaño máximo de archivo (%s bytes) excedido." client=""/>
+		<phrase id="mismatchpassword" value="Los passwords no coinciden" client="1"/>
+		<phrase id="missinglookuptablename" value="Falta el nombre de la tabla de búsqueda" client=""/>
+		<phrase id="missingdisplayfieldname" value="Falta el nombre del campo de visualización" client=""/>
+		<phrase id="missingdisplayfieldvalue" value="Falta el valor del campo de visualización" client=""/>
+		<phrase id="missinguserlevelid" value="Falta el ID de nivel de usuario" client=""/>
+		<phrase id="missinguserlevelname" value="Falta el nombre de nivel de usuario" client=""/>
+		<phrase id="new" value="Nuevo" client=""/>
+		<phrase id="newpassword" value="Nueva contraseña" client=""/>
+		<phrase id="newvalue" value="Nuevo valor" client=""/>
+		<phrase id="next" value="Siguiente" client=""/>
+		<phrase id="noaddrecord" value="No hay registros para agregar" client="1"/>
+		<phrase id="nofieldselected" value="No se ha seleccionado campo a actualizar" client="1"/>
+		<phrase id="nopermission" value="No tiene permisos para ver esta página" client=""/>
+		<phrase id="norecord" value="No se encontraron registros" client=""/>
+		<phrase id="norecordforkey" value="No existe el registro de la clave =" client=""/>
+		<phrase id="norecordselected" value="No se seleccionaron registros" client="1"/>
+		<phrase id="notablegenerated" value="No se generaron tablas" client=""/>
+		<phrase id="of" value="de" client=""/>
+		<phrase id="old" value="Anterior" client=""/>
+		<phrase id="oldpassword" value="Contraseña anterior" client=""/>
+		<phrase id="optionalreadyexist" value="Ya existe el dato" client=""/>
+		<phrase id="page" value="Pag" client=""/>
+		<phrase id="pagerfirst" value="Primera" client=""/>
+		<phrase id="pagerlast" value="Última" client=""/>
+		<phrase id="pagernext" value="Siguiente" client=""/>
+		<phrase id="pagerprevious" value="Anterior" client=""/>
+		<phrase id="password" value="Contraseña" client=""/>
+		<phrase id="passwordrequest" value="Solicitar contraseña" client=""/>
+		<phrase id="passwordchanged" value="Contraseña cambiada" client=""/>
+		<phrase id="passwordexpired" value="Contraseña caducada. Por favor, cámbiela por una nueva." client=""/>
+		<phrase id="permission" value="Permiso" client=""/>
+		<phrase id="permissionaddcopy" value="Agregar/Copiar" client=""/>
+		<phrase id="permissiondelete" value="Eliminar" client=""/>
+		<phrase id="permissionedit" value="Editar" client=""/>
+		<phrase id="permissionlistsearchview" value="Listar/Buscar/Ver" client=""/>
+		<phrase id="permissionlist" value="Listar" client=""/>
+		<phrase id="permissionsearch" value="Buscar" client=""/>
+		<phrase id="permissionview" value="Ver" client=""/>
+		<phrase id="pickdate" value="Seleccione una fecha" client=""/>
+		<phrase id="pleaseselect" value="Seleccionar" client=""/>
+		<phrase id="primarykeyunspecified" value="Clave principal no especificada" client=""/>
+		<phrase id="printerfriendly" value="Imprimir" client=""/>
+		<phrase id="prev" value="Anterior" client=""/>
+		<phrase id="pwdemailsent" value="Contraseña enviada a su email" client=""/>
+		<phrase id="quicksearch" value="Búsqueda rápida" client=""/>
+		<phrase id="quicksearchbtn" value="Buscar (*)" client=""/>
+		<phrase id="record" value="Registros" client=""/>
+		<phrase id="recordchangedbyotheruser" value="La información ha sido modificada por otro usuario. Presione [Recargar] para obtener los datos modificados (La información de su formulario será sobreescrita) o presione [Sobreescribir] para reemplazar los datos modificados con los datos de su formulario." client=""/>
+		<phrase id="recorddeleted" value="Registro(s) eliminado" client=""/>
+		<phrase id="recordinserted" value="Registro(s) insertado" client=""/>
+		<phrase id="recordupdated" value="Registro(s) actualizado" client=""/>
+		<phrase id="recordsperpage" value="Tamaño de Página" client=""/>
+		<phrase id="register" value="Registrar" client=""/>
+		<phrase id="registerbtn" value="Registrar" client=""/>
+		<phrase id="registersuccess" value="Registro completado" client=""/>
+		<phrase id="registersuccessactivate" value="Registro completado. Se ha enviado un mensaje a su direccion de email" client="haga clic en el enlace del mensaje para activar su cuenta."/>
+		<phrase id="registerpage" value="Página de registro" client=""/>
+		<phrase id="reloadbtn" value="Recargar" client=""/>
+		<phrase id="reloadlink" value="Recargar" client=""/>
+		<phrase id="rememberme" value="Recordarme" client=""/>
+		<phrase id="remove" value="Eliminar" client=""/>
+		<phrase id="replace" value="Reemplazar" client=""/>
+		<phrase id="report" value="Reporte" client=""/>
+		<phrase id="requestpwdpage" value="Página para solicitar contraseña" client=""/>
+		<phrase id="reset" value="Reiniciar" client=""/>
+		<phrase id="resetsearch" value="Reiniciar criterio de búsqueda" client=""/>
+		<phrase id="rptavg" value="Promedio" client=""/>
+		<phrase id="rptdtlrec" value="Detalle de registros" client=""/>
+		<phrase id="rptgrandtotal" value="Total final" client=""/>
+		<phrase id="rptmax" value="Máximo" client=""/>
+		<phrase id="rptmin" value="Mínimo" client=""/>
+		<phrase id="rptsum" value="Suma" client=""/>
+		<phrase id="rptsumhead" value="Resumen de" client=""/>
+		<phrase id="saveusername" value="Guardar mi usuario" client=""/>
+		<phrase id="search" value="Buscar" client=""/>
+		<phrase id="sendemailbtn" value="Enviar contraseña" client=""/>
+		<phrase id="sendemailsuccess" value="Email enviado satisfactoriamente" client="1"/>
+		<phrase id="sendpwd" value="Enviar contraseña" client=""/>
+		<phrase id="showall" value="Mostrar todos" client=""/>
+		<phrase id="showhighlight" value="Mostrar resaltado" client="1"/>
+		<phrase id="srchlegend" value=" (*)" client=""/>
+		<phrase id="table" value="Tabla" client=""/>
+		<phrase id="tbltypetable" value="Tabla:" client=""/>
+		<phrase id="tbltypeview" value="Vista:" client=""/>
+		<phrase id="tbltypecustomview" value="Vista personalizada:" client=""/>
+		<phrase id="tbltypereport" value="Reporte:" client=""/>
+		<phrase id="to" value="a" client=""/>
+		<phrase id="total" value="Total" client=""/>
+		<phrase id="unauthorizeduserid" value="El usuario actual (%c) no esta autorizado para asignar el ID de usuario (%u)." client=""/>
+		<phrase id="unauthorizedparentuserid" value="El usuario actual (%c) no está autorizado para asignar el ID de usuario padre (%p)." client=""/>
+		<phrase id="unauthorizedmasteruserid" value="El usuario actual (%c) no está autorizado para insertar el registro. Filtro Maestro: %f" client=""/>
+		<phrase id="unmatchedvalue" value="El valor no existe" client=""/>
+		<phrase id="update" value="Actualizar" client=""/>
+		<phrase id="updatebtn" value="Actualizar" client=""/>
+		<phrase id="updatecancelled" value="Actualizar cancelado" client=""/>
+		<phrase id="updatefailed" value="Actualizar falló" client=""/>
+		<phrase id="updatelink" value="Actualizar" client=""/>
+		<phrase id="updateselectedlink" value="Actualizar los registros seleccionados" client=""/>
+		<phrase id="updatesuccess" value="Actualizar completado" client=""/>
+		<phrase id="updatevalue" value="Actualizar" client=""/>
+		<phrase id="useremail" value="Email del usuario" client=""/>
+		<phrase id="userexists" value="El usuario ya existe" client=""/>
+		<phrase id="userlevel" value="Nivel de usuario" client=""/>
+		<phrase id="userleveladministratorname" value="El nombre del nivel -1 debe ser 'Administrator'" client="1"/>
+		<phrase id="userlevelpermission" value="Permisos de usuario" client=""/>
+		<phrase id="userlevelidinteger" value="El id del nivel de usuario debe ser entero" client="1"/>
+		<phrase id="userleveldefaultname" value="El nombre del nivel 0 debe ser 'Default'" client="1"/>
+		<phrase id="userlevelidincorrect" value="El id del nivel de usuario debe ser mayor a 0" client="1"/>
+		<phrase id="userlevelnameincorrect" value="El nombre de nivel no puede ser 'Administrator' o 'Default'" client="1"/>
+		<phrase id="userloggedin" value="Usuario '%u' ya ha iniciado sesión" client=""/>
+		<phrase id="username" value="Usuario" client=""/>
+		<phrase id="userprofilecorrupted" value="Perfil de usuario dañado. Por favor cierre su sesión e iniciela nuevamente." client=""/>
+		<phrase id="view" value="Vista" client=""/>
+		<phrase id="viewlink" value="Vista" client=""/>
+		<phrase id="viewpageaddlink" value="Agregar" client=""/>
+		<phrase id="viewpagecopylink" value="Copiar" client=""/>
+		<phrase id="viewpagedeletelink" value="Eliminar" client=""/>
+		<phrase id="viewpagedetaillink" value="..." client=""/>
+		<phrase id="viewpageeditlink" value="Editar" client=""/>
+		<phrase id="wrongfiletype" value="El tipo de archivo no está permitido." client="1"/>
+		<phrase id="tableorview" value="Tablas/Vistas" client=""/>
+		<phrase id="=" value="=" client=""/>
+		<phrase id="&lt;&gt;" value="&lt;&gt;"/>
+		<phrase id="&lt;" value="&lt;"/>
+		<phrase id="&lt;=" value="&lt;="/>
+		<phrase id="&gt;" value="&gt;"/>
+		<phrase id="&gt;=" value="&gt;="/>
+		<phrase id="like" value="Contiene" client=""/>
+		<phrase id="not like" value="No contiene" client=""/>
+		<phrase id="starts with" value="Comienza con" client=""/>
+		<phrase id="between" value="Entre" client=""/>
+		<phrase id="and" value="y" client=""/>
+		<phrase id="or" value="o" client=""/>
+	</global>
+	<project><phrase id="bodytitle" value="Pokemon"/>
+<phrase id="footertext" value="&amp;copy;2010 e.World Technology Ltd. All rights reserved."/>
+<menu id="13"><phrase id="menutext" value="mapas graficos"/>
+</menu>
+<menu id="14"><phrase id="menutext" value="entrenadores items"/>
+</menu>
+<menu id="15"><phrase id="menutext" value="iconos"/>
+</menu>
+<menu id="16"><phrase id="menutext" value="items"/>
+</menu>
+<menu id="17"><phrase id="menutext" value="mapas mundo"/>
+</menu>
+<menu id="9"><phrase id="menutext" value="entrenadores llaves"/>
+</menu>
+<menu id="10"><phrase id="menutext" value="entrenadores opciones"/>
+</menu>
+<menu id="11"><phrase id="menutext" value="mapas"/>
+</menu>
+<menu id="1"><phrase id="menutext" value="entrenadores"/>
+</menu>
+<menu id="2"><phrase id="menutext" value="pokemons"/>
+</menu>
+<menu id="3"><phrase id="menutext" value="pokemons evoluciones"/>
+</menu>
+<menu id="4"><phrase id="menutext" value="entrenadores pokemons"/>
+</menu>
+<menu id="5"><phrase id="menutext" value="entrenadores secuencias"/>
+</menu>
+<menu id="7"><phrase id="menutext" value="secuencias"/>
+</menu>
+<menu id="8"><phrase id="menutext" value="secuencias escenas"/>
+</menu>
+<table id="entrenadores"><phrase id="tblcaption" value="entrenadores"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="nombre"><phrase id="fldcaption" value="nombre"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="zemail"><phrase id="fldcaption" value="email"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="passwd"><phrase id="fldcaption" value="passwd"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="iniciado"><phrase id="fldcaption" value="iniciado"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="en_secuencia"><phrase id="fldcaption" value="en secuencia"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="map"><phrase id="fldcaption" value="map"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="secuencia"><phrase id="fldcaption" value="secuencia"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="escena"><phrase id="fldcaption" value="escena"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="pokemons"><phrase id="tblcaption" value="pokemons"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="numero"><phrase id="fldcaption" value="Número"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="nombre"><phrase id="fldcaption" value="Nombre"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="imagen"><phrase id="fldcaption" value="Imagen"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="icono"><phrase id="fldcaption" value="Icono"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="pokemons_evoluciones"><phrase id="tblcaption" value="pokemons evoluciones"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="de"><phrase id="fldcaption" value="de"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="a"><phrase id="fldcaption" value="a"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="nivel"><phrase id="fldcaption" value="nivel"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="item"><phrase id="fldcaption" value="item"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="entrenadores_pokemons"><phrase id="tblcaption" value="entrenadores pokemons"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="entrenador"><phrase id="fldcaption" value="entrenador"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="pokemon"><phrase id="fldcaption" value="pokemon"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="nivel"><phrase id="fldcaption" value="nivel"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="experiencia"><phrase id="fldcaption" value="experiencia"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="entrenadores_secuencias"><phrase id="tblcaption" value="entrenadores secuencias"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="entrenador"><phrase id="fldcaption" value="entrenador"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="secuencia"><phrase id="fldcaption" value="secuencia"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="escena"><phrase id="fldcaption" value="escena"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fecha"><phrase id="fldcaption" value="fecha"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="secuencias"><phrase id="tblcaption" value="secuencias"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="nombre"><phrase id="fldcaption" value="nombre"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="secuencias_escenas"><phrase id="tblcaption" value="secuencias escenas"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="secuencia"><phrase id="fldcaption" value="secuencia"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="nombre"><phrase id="fldcaption" value="nombre"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="imagen"><phrase id="fldcaption" value="imagen"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="texto"><phrase id="fldcaption" value="texto"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="script"><phrase id="fldcaption" value="script"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="orden"><phrase id="fldcaption" value="orden"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="entrenadores_llaves"><phrase id="tblcaption" value="entrenadores llaves"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="entrenador"><phrase id="fldcaption" value="entrenador"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="llave"><phrase id="fldcaption" value="llave"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="entrenadores_opciones"><phrase id="tblcaption" value="entrenadores opciones"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="entrenador"><phrase id="fldcaption" value="entrenador"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="opcion"><phrase id="fldcaption" value="opcion"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="valor"><phrase id="fldcaption" value="valor"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="mapas"><phrase id="tblcaption" value="mapas"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="imagen"><phrase id="fldcaption" value="imagen"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="titulo"><phrase id="fldcaption" value="titulo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="script"><phrase id="fldcaption" value="script"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="mapas_zonas"><phrase id="tblcaption" value="Zonas de acción"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="mapa"><phrase id="fldcaption" value="mapa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="pos_x"><phrase id="fldcaption" value="pos x"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="pos_y"><phrase id="fldcaption" value="pos y"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="secuencia"><phrase id="fldcaption" value="secuencia"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="width"><phrase id="fldcaption" value="width"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="height"><phrase id="fldcaption" value="height"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="titulo"><phrase id="fldcaption" value="titulo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="a_mapa"><phrase id="fldcaption" value="a mapa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="entrenadores_items"><phrase id="tblcaption" value="entrenadores items"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="item"><phrase id="fldcaption" value="item"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="entrenador"><phrase id="fldcaption" value="entrenador"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="cantidad"><phrase id="fldcaption" value="cantidad"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="iconos"><phrase id="tblcaption" value="iconos"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="nombre"><phrase id="fldcaption" value="nombre"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="x"><phrase id="fldcaption" value="x"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="y"><phrase id="fldcaption" value="y"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="items"><phrase id="tblcaption" value="items"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="nombre"><phrase id="fldcaption" value="nombre"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="icono"><phrase id="fldcaption" value="icono"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="mapas_mundo"><phrase id="tblcaption" value="mapas mundo"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="x"><phrase id="fldcaption" value="x"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="y"><phrase id="fldcaption" value="y"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="map"><phrase id="fldcaption" value="map"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+</project>
+</ew-language>
